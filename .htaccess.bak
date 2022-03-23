@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} http://mi-juguete.ddnsking.com
+RewriteRule ^(.*) http://mi-juguete.ddnsking.com/ [R=301,L]
+RedirectMatch 301 (.*).asp$ mi-juguete.ddnsking.com
